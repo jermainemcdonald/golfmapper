@@ -1,0 +1,31 @@
+html { height: 100% }
+
+body { height: 100%; margin: 0; padding: 0 }
+
+#container {
+   height: 100%;
+   position: relative;
+}
+
+#selectionpanel {
+   width: 25%;
+   float: left;
+   padding: 5px;
+}
+
+#content {
+   width: 70%;
+   height: 90%;
+   float: right;
+}
+
+#footer {
+   display: inline-block;
+   vertical-align: bottom;
+   width: 100%;
+   height: 40px;
+   background: green;
+   padding:5px;
+}
+
+#map-canvas { height: 100% }
